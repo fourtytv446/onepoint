@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "520703414271",
+    "firebase_url": "https://point-game-12ded-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "point-game-12ded",
+    "storage_bucket": "point-game-12ded.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520703414271:android:4a98bcf541db4bf772e1ca",
+        "android_client_info": {
+          "package_name": "com.ftvmzc.onepoint"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSgmyax2wphP6RVL_dFKuV3BdU_GasC8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520703414271:android:bf6a74d803160e1172e1ca",
+        "android_client_info": {
+          "package_name": "com.ftvmzc.onepoint"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSgmyax2wphP6RVL_dFKuV3BdU_GasC8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
