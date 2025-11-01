@@ -1,1 +1,57 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"point-game-12ded","appId":"1:520703414271:android:bf6a74d803160e1172e1ca","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"point-game-12ded","configurations":{"android":"1:520703414271:android:bf6a74d803160e1172e1ca","ios":"1:520703414271:ios:ac2dea84a6ddc3d072e1ca","macos":"1:520703414271:ios:ac2dea84a6ddc3d072e1ca","web":"1:520703414271:web:0f1f5520a0a8207472e1ca","windows":"1:520703414271:web:8307978caa608a6372e1ca"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "point-game-12ded",
+          "appId": "1:520703414271:android:bf6a74d803160e1172e1ca",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "point-game-12ded",
+          "configurations": {
+            "android": "1:520703414271:android:bf6a74d803160e1172e1ca",
+            "ios": "1:520703414271:ios:ac2dea84a6ddc3d072e1ca",
+            "macos": "1:520703414271:ios:ac2dea84a6ddc3d072e1ca",
+            "web": "1:520703414271:web:0f1f5520a0a8207472e1ca",
+            "windows": "1:520703414271:web:8307978caa608a6372e1ca"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ],
+      "source": "functions"
+    },
+    {
+      "codebase": "1point",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ],
+      "source": "1point"
+    }
+  ]
+}
